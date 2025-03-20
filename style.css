@@ -1,0 +1,42 @@
+
+/* Button - Add it from the README instructions */
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: 500ms;
+}
+
+/* Subheading */
+h2 {
+  color: var(--color-text-header);
+}
+
+/* Interactive image */
+.illustration:active {
+  transform: translateY(5px);
+}
+
+/* Button dip
+- Toggling this class on and off will move it down and up again
+- The button transition property above determines the speed of the translate (500ms)
+*/
+.dipped {
+  transform: translateY(5px);
+}
+
+/* Links that open files in the editor */
+.fileopener {
+  cursor:pointer;
+  font-weight:bold;
+  border-bottom:3px solid var(--color-primary);
+  color: var(--color-secondary);
+}
+.fileopener:hover {
+  border-bottom:3px solid var(--color-secondary);
+}
